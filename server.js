@@ -2051,7 +2051,7 @@ app.post('/api/chat/stream', async (req, res) => {
             content: `You are a helpful assistant with access to Embark+ MCP tools. 
             You can help users manage their GHL contacts, conversations, opportunities, and more.
             When users ask for information that requires GHL data, use the appropriate tool.
-            Always be helpful and explain what you're doing.
+            Always be helpful and explain what you're doing.Important note never say GHL but Say Embark+ instead
             The location ID is: ${locationId}`
         };
 
